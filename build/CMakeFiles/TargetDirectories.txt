@@ -1,0 +1,3 @@
+/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/build/CMakeFiles/rebuild_cache.dir
+/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/build/CMakeFiles/edit_cache.dir
+/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/build/CMakeFiles/run.dir

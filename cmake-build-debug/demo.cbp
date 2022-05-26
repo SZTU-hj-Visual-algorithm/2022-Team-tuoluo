@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="demo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\..\..\usr\local\opencv-3.4.1\;CMake Files\..\..\..\..\..\..\usr\local\opencv-3.4.1\share\;CMake Files\..\..\..\..\..\..\usr\local\opencv-3.4.1\share\OpenCV\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run">
+				<Option output="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/include"/>
+					<Add directory="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/include/camera"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 run"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run/fast">
+				<Option output="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/include"/>
+					<Add directory="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/include/camera"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 run/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/liyankuan/demo/win/zimiao\ -\ 深大+陀螺检测/zimiao\ -\ ╔ε┤≤+═╙┬▌╝∞▓Γ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/main.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/src/ArmorDetector.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/src/KAL.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/src/Variables.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/src/camera.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/src/tuoluo_Detect.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/usr/include">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/../../../../../../usr/local/opencv-3.4.1/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\opencv-3.4.1\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/../../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/../../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/../../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/liyankuan/demo/win/zimiao - 深大+陀螺检测/zimiao - ╔ε┤≤+═╙┬▌╝∞▓Γ/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
