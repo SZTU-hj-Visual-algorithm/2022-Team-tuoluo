@@ -441,10 +441,12 @@ cv::RotatedRect ArmorDetector::chooseTarget(const std::vector<matched_rect> & ma
 		// 把矩形的特征信息push到一个候选vector中
 		candidate.push_back(candidate_target{cur_height, cur_angle, static_cast<int>(i), is_small, match_rects[i].lr_rate, match_rects[i].angle_abs});
 		ret_idx = 1;
+		
 
 
 	}
 	//================================ 到这里才结束循环 =======================================
+	BestArmor.status = FirstFind;
 	int final_index = 0;
 	if (candidate.size() > 1){
 		// 将候选矩形按照高度大小排序，选出最大的（距离最近）
@@ -502,7 +504,7 @@ cv::RotatedRect ArmorDetector::chooseTarget(const std::vector<matched_rect> & ma
     BestArmor.ty = ret_rect.center.y;
     BestArmor.bar_angle_abs = candidate[final_index].bar_angle_abs;
     BestArmor.armor_angle = candidate[final_index].armor_angle;
-    BestArmor.status = FirstFind;
+    BestArmor.status = Shoot;
     BestArmor.get_width = ret_rect.size.width;
 
 	return ret_rect;
