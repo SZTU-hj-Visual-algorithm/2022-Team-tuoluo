@@ -387,8 +387,10 @@ cv::RotatedRect ArmorDetector::chooseTarget(const std::vector<matched_rect> & ma
 		// 如果矩形的w和h之比小于阈值的话就是小装甲，否则是大装甲(初步判断)
 		if (wh_ratio < _para.small_armor_wh_threshold)
 			is_small = true;
+			BestArmor.IsSmall = true;
 		else
 			is_small = false;
+			BestArmor.IsSmall = false;
 
 //        cout << "wh_ratio: " << wh_ratio << endl;
 		
