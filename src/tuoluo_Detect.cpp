@@ -366,7 +366,19 @@ bool ShootTuoluo::ContinueSetTuoluo(Mat Src, double &angle, Final_Armor BestArmo
  */
 double ShootTuoluo::getAngle(Final_Armor BestArmor){
 //    double width = GetDistance(BestArmor.leds[0].box.center,BestArmor.leds[1].box.center);
-    double width = fabs(BestArmor.leds[0].box.center.x - BestArmor.leds[1].box.center.x);  //两灯条距离之差
+    
+  double Angle = fabs(BestArmor.armor_angle - BestArmor.bar_angle_abs*PI/180);                   //得到弧度差角,利用装甲倾斜角度和灯条倾斜角度关系弥补因俯仰角或是倾斜产生的计算误差
+//    width *= cos(Angle);                                //得到用于计算的装甲宽度,因为旋转造成的视角不同从而使2d图像的装甲宽度不同
+//     width *= cos(armorAngle);
+    double distance = sqrt(pow(BestArmor.tz,2)+pow(BestArmor.tx,2));
+    double _cos = width/(tz_armor_width_*(tz_normal/distance));
+    cout<<"cos:"<<_cos<<"distance:"<<distance<<endl;
+    if(_cos>=1) return 0;
+    return acos(_cos)*180/PI;
+ 
+ 
+/* 
+ double width = fabs(BestArmor.leds[0].box.center.x - BestArmor.leds[1].box.center.x);  //两灯条距离之差
     cout<<"width:"<<width<<endl;
     double ledAngle ;     //灯条角度
     if(BestArmor.leds[0].box.angle>90)
@@ -387,6 +399,7 @@ double ShootTuoluo::getAngle(Final_Armor BestArmor){
     cout<<"cos:"<<_cos<<"distance:"<<distance<<endl;
     if(_cos>=1) return 0;
     return acos(_cos)*180/PI;
+    */
 }
 
 /**
