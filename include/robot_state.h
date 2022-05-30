@@ -7,6 +7,16 @@
 #include <opencv2/opencv.hpp>
 #include "tuoluo_variables.h"
 
+
+enum pattern{
+    FirstFind,        //首次识别
+    Shoot,              //连续射击
+    stop,               //非连续
+    buffering        //缓冲
+};
+
+
+
 struct Final_Armor{
     float tx = 0;
     float ty = 0;
