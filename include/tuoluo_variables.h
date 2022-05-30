@@ -29,13 +29,6 @@ extern string USBDevicPath;                                                   //
 extern string BuffDevicPath ;                                                   //大符底盘相机设备路径
 */
 
-enum pattern{
-    FirstFind,        //首次识别
-    Shoot,              //连续射击
-    stop,               //非连续
-    buffering        //缓冲
-};
-
 
 //灯条结构体
 struct led{
