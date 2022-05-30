@@ -20,7 +20,7 @@ struct Final_Armor{
     double get_width = 0;               //对应陀螺宽度
     double distance = 0;
     led leds[2];
-    int status;
+    pattern status;
     cv::Point2f point[4];
     bool IsShooting = true;
 };
