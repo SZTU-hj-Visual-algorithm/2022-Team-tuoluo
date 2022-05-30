@@ -565,6 +565,11 @@ cv::RotatedRect ArmorDetector::getTargetAera(const cv::Mat & src, const int & sb
     double depth = m_pc(2, 0);
     printf("depth:%lf",depth);
 
+   //传参
+    BestArmor.point[0] = pts[0];
+    BestArmor.point[1] = pts[1];
+    BestArmor.point[2] = pts[2];
+    BestArmor.point[3] = pts[3];   //lu ru rd ld
     BestArmor.tz = depth;
 
     return final_rect;
