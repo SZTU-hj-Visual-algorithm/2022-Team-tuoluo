@@ -2,22 +2,7 @@
 
   *Description: 角度解算,移动和陀螺预测
   *Function List:
-     1.GetArmorAngle 击打角度获取接口,出入处理后的装甲信息
-     2.ComputeRecoup  移动预测
-     3.ComTuoluoShootPosition  陀螺检测
-     4.ShootAdjust  相机坐标转换到枪口坐标,将y坐标转换成绝对坐标
-     5.ComputeShootTime 计算击打时间和弹道缓冲(不考虑空气阻力等影响)
-     第1种移动预测方案,使用绝对坐标(已弃用):
-     6.SetKF 滤波控制接口
-     7.BufferSetFilter缓冲状态接口
-     8.FirstFind    首次发现目标,各项初始化
-     9.FirstSetFilter   第一次连续滤波,卡尔曼对象初始化
-     10.SetSecOrderKF   二阶加速度滤波(弃用)
-     第2种移动预测方案,采用角速度(更稳定,对测距精度要求更低,缺点为不符合实际运动规律):
-     11.angle_FirstFind 角度滤波初始化
-     12.angle_FirstSetFilter    首次角度滤波
-     13.setAngleForceParam  设置角度滤波卡尔曼参数
-  * Others:
+     GetArmorAngle 击打角度获取接口,出入处理后的装甲信息,主要函数，其他是他的工具
         包含陀螺判断机制和卡尔曼预测
 **********************************************************************************/
 #include "AngleSolver.h"
