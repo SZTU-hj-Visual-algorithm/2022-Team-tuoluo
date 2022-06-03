@@ -1,9 +1,4 @@
 ﻿/*********************************************************************************
-  *Copyright(C),2018-2020,华北理工大学Horizon战队All Rights Reserved
-  *FileName:  Filter.cpp
-  *Author:  解佳朋
-  *Version: 1.3.1.200312_RC
-  *Date:  2020.03.12
   *Description: 卡尔曼滤波工具类
   *Function List:
      1.EKF   构造函数包含有参构造和无参构造
