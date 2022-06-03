@@ -90,7 +90,22 @@ inline float getArmorAngle(Point2f p[4]){
 
 
 
+//击打缓冲计算返回
+typedef struct Angle_t{
+    float pitch;
+    float yaw;
+    float t;                                                                //击打弹道时间
+    float angle;
+};
 
+// 相机的即便矩阵和内参矩阵
+typedef struct Camera0 {
+    cv::Mat caremaMatrix = (cv::Mat_<float>(3, 3) <<
+        623.94494, 0, 308.05780,
+        0, 626.19679, 255.94809,
+        0, 0, 1);
+    cv::Mat distCoeffs = (cv::Mat_<float>(1, 5) << -0.22196, 0.18886, -0.00333, -0.00029, 0.00000);
+};
 
 
 #endif //FINDARMOR_TUOLUO_VARIABLES_H
