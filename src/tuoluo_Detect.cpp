@@ -89,7 +89,7 @@ ShootTuoluo::ShootTuoluo(){
     tz_normal = 120.725;                                //设定的标准距离
 }
 
-TuoluoData ShootTuoluo::getTuoluoData(Mat Src, Final_Armor finalArmor){
+TuoluoData ShootTuoluo::getTuoluoData(Mat Src){
     double angle = getAngle(finalArmor);           //计算相对中心偏转角度,存在一定误差
     TuoluoData tuoluoData;
     if(finalArmor.status == FirstFind){
