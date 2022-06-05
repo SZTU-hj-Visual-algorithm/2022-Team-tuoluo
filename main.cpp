@@ -61,19 +61,11 @@ int main()
 			int mode_temp;
 			lin_is_get = port.get_Mode1(mode_temp, lin[0], lin[1], lin[2], lin[3]);  //第一个参数为模式，第二个为pitch，yaw，roll，ball_speed
 
-            CarData carDatas;
-            carDatas.pitch = lin[1];
-            carDatas.yaw = lin[2];
-            carDatas.BeginToNowTime = cartime;
+            		CarData carDatas;
+            		carDatas.pitch = lin[1];
+            		carDatas.yaw = lin[2];
+            		carDatas.BeginToNowTime = cartime;
 
-            if(TLdata.isTuoluo)
-            {
-                AngleSolver tuoluoShoot;
-
-            }
-
-
-			
 			float pitch,yaw;
 			vdata = { pitch, yaw, 0x31 };
 			vdata = { pitch, yaw, 0x32 };  //没识别的时候
